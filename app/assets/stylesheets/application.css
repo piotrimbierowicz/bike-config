@@ -1,0 +1,97 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+.conf-element {
+	width: 1000px;
+	height: 655px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#conf-bike {
+	position: relative;
+	width: 1000px;
+	height: 655px;
+	float: right;
+}
+
+#conf-setup-menu {
+	float: left;
+}
+
+#conf-setup-secondary-menu {
+	float: right;
+}
+
+.disabled {
+	display: none;
+}
+
+#conf-loader {
+	visibility: hidden;
+}
+
+.conf-btn {
+	line-height: 28px;
+	color: #737373;
+	font-weight: bold;
+	height: 27px;
+	border: 1px solid #d9d9d9;
+	background: url('../images/btn-bg.png') repeat-x;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 10px;
+	font-family: 'Myriad Pro';
+	width: 73px;
+	text-align: center;
+}
+
+.conf-btn.active {
+	background: #636363;
+	color: #ffffff;
+}
+
+.conf-btn-arrow {
+	width: 33px;
+}
+
+.conf-btn-dblline {
+	line-height: 10px;
+	padding-top: 4px;
+	height: 23px;
+}
+
+.conf-icon-arrow-left {
+	top:5px;
+	position: relative;
+	display: inline-block;
+	background: url('../images/arrow-left.png') no-repeat;
+	width: 13px;
+	height: 14px;
+}
+
+.conf-icon-arrow-right {
+	top:5px;
+	position: relative;
+	display: inline-block;
+	background: url('../images/arrow-right.png') no-repeat right;
+	width: 14px;
+	height: 14px;
+}
+
+.conf-row {
+	width: 160px;
+}
